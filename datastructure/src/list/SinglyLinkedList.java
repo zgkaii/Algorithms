@@ -5,13 +5,17 @@ import java.util.StringJoiner;
 /**
  * @Author: Mr.Z
  * @DateTime: 2020/12/22 10:51
- * @Description: 单链表
+ * @Description: 单向链表
  */
 public class SinglyLinkedList {
-    // Head refer to the front of the list
+    /**
+     * Head refer to the front of the list
+     */
     private Node head;
 
-    // Size of SinglyLinkedList
+    /**
+     * Size of SinglyLinkedList
+     */
     private int size;
 
     /**
@@ -232,6 +236,11 @@ public class SinglyLinkedList {
         return joiner.toString();
     }
 
+    /**
+     * Main Method
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
         assert list.isEmpty();
@@ -277,9 +286,14 @@ public class SinglyLinkedList {
  * They consists of a value and a pointer to the node after them.
  */
 class Node {
-    // the value of the node
+    /**
+     * the value of the node
+     */
     int value;
-    //point to the next node
+
+    /**
+     * point to the next node
+     */
     Node next;
 
     Node() {
