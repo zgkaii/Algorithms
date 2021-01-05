@@ -11,6 +11,12 @@ import static java.lang.String.format;
  * @Author: Mr.Z
  * @DateTime: 2020/12/23 15:09
  * @Description: 二分查找
+ *
+ * <p>Binary Search is one of the most popular algorithms.The algorithm finds the position of a target
+ * value within a sorted array.
+ *
+ * <p>Worst-case performance O(log n) Best-case performance O(1) Average performance O(log n)
+ * Worst-case space complexity O(1)
  */
 class BinarySearch implements SearchUtil {
 
