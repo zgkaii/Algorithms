@@ -14,6 +14,11 @@ import static java.lang.String.format;
  *
  * <p>Worst-case performance O(n) Best-case performance O(1) Average performance O(log(log(n))) if
  * the elements are uniformly distributed if not O(n) Worst-case space complexity O(1).
+ *
+ * The interpolation search algorithm is almost the same as the binary search algorithm,
+ * the difference is:
+ * Binary search method: guess the key value is in the middle position (middle)
+ * Interpolation search method: use interpolation formula to calculate key position
  */
 public class InterpolationSearch {
 
@@ -22,7 +27,7 @@ public class InterpolationSearch {
      * @param key   is a value what should be found in the array
      * @return an index if the array contains the key unless -1
      */
-    public int find(int array[], int key) {
+    public int find(int[] array, int key) {
         int start = 0, end = (array.length - 1);
 
         // Since array is sorted, an element present
@@ -33,13 +38,17 @@ public class InterpolationSearch {
             int pos = start + (((end - start) / (array[end] - array[start])) * (key - array[start]));
 
             // Condition of target found
-            if (array[pos] == key) return pos;
+            if (array[pos] == key) {
+                return pos;
+            }
 
             // If key is larger, key is in upper part
-            if (array[pos] < key) start = pos + 1;
-
+            if (array[pos] < key) {
+                start = pos + 1;
                 // If key is smaller, x is in lower part
-            else end = pos - 1;
+            } else {
+                end = pos - 1;
+            }
         }
         return -1;
     }

@@ -27,7 +27,8 @@ class BinarySearch implements SearchUtil {
 
     private <T extends Comparable<T>> int search(T array[], T key, int left, int right) {
         if (right < left) {
-            return -1;// this means that the key not found
+            // this means that the key not found
+            return -1;
         }
 
         int medium = (left + right) >>> 1;
