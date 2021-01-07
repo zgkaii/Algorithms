@@ -1,6 +1,7 @@
 package sort;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author: Mr.Z
@@ -32,6 +33,17 @@ public class SortUtils {
         array[idx] = array[idy];
         array[idy] = swap;
         return true;
+    }
+
+    /**
+     * Prints a list
+     *
+     * @param toPrint - a list which should be printed
+     */
+    static void print(List<?> toPrint) {
+        toPrint.stream().map(Object::toString).map(str -> str + " ").forEach(System.out::print);
+
+        System.out.println();
     }
 
     /**
