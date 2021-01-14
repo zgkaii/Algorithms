@@ -41,14 +41,14 @@ Algorithms
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./LeetCode/list/MergeTwoSortedLists.java) | Easy       |
 | 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |                                                  | Medium     |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |                                                  | Hard       |
-| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |                                                  | Easy       |
+| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/array/RemoveDuplicates.java)   | Easy       |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)            | Easy       |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)     | Easy       |
-| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |                                                  | Easy       |
+| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./LeetCode/array/MergeSortedArray.java)   | Easy       |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |                                                  | Easy       |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |                                                  | Medium     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) |                                                  | Medium     |
-| 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) |                                                  | Easy       |
+| 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)   | Easy       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./LeetCode/array/MoveZeroes.java)         | Easy       |
 |      |                                                              |                                                  |            |
 |      |                                                              |                                                  |            |
