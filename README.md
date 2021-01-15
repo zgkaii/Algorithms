@@ -39,16 +39,14 @@ Algorithms
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./LeetCode/array/MostWater.java)          | Medium     |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./LeetCode/array/ThreeSum.java)           | Medium     |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./LeetCode/list/MergeTwoSortedLists.java) | Easy       |
-| 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |                                                  | Medium     |
-| 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |                                                  | Hard       |
+| 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./LeetCode/list/SwapNodes.java)           | Medium     |
+| 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./LeetCode/list/ReverseNodesKGroup.java)  | Hard       |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/array/RemoveDuplicates.java)   | Easy       |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)            | Easy       |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)     | Easy       |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./LeetCode/array/MergeSortedArray.java)   | Easy       |
-| 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |                                                  | Easy       |
-| 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |                                                  | Medium     |
-| 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) |                                                  | Medium     |
+| 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)     | Easy       |
+| 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](./LeetCode/list/LinkedListCycleTwo.java)  | Medium     |
+| 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)        | Medium     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)   | Easy       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./LeetCode/array/MoveZeroes.java)         | Easy       |
-|      |                                                              |                                                  |            |
-|      |                                                              |                                                  |            |
