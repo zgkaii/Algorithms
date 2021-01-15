@@ -13,22 +13,22 @@ package list;
  */
 public class ReverseLinkedList {
     /**
-     * 迭代
+     * 双指针
      * @param head
      * @return
      */
     public ListNode reverseList(ListNode head) {
-        ListNode newHead = null;
+        ListNode pre = null;
         ListNode cur = head;
         while (cur != null) {
-            ListNode temp = cur.next;
+            ListNode tmp = cur.next;
             // 每次访问的原链表节点都会成为新链表的头结点
-            cur.next = newHead;
+            cur.next = pre;
             // 更新新链表
-            newHead = cur;
-            cur = temp;
+            pre = cur;
+            cur = tmp;
         }
-        return newHead;
+        return pre;
     }
 
     /**
