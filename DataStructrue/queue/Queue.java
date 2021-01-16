@@ -166,6 +166,4 @@ public class Queue {
         System.out.println(myQueue.peekRear()); // Will print 7
         System.out.println(myQueue.toString()); // Will print [2, 5, 3, 7]
     }
-
-
 }
