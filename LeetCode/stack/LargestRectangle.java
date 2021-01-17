@@ -14,25 +14,21 @@ import static sun.swing.MenuItemLayoutHelper.max;
  * 求在该柱状图中，能够勾勒出来的矩形的最大面积。
  **/
 public class LargestRectangle {
-    public int largestRectangleArea1(int[] heights) {
-
-
-        return -1;
-    }
-
-    public int largestRectangleArea2(int[] heights) {
-        int len = heights.length, i = 0, maxArea = 0;
-
-        Stack<Integer> stack = new Stack<>();
+    public int largestRectangleArea1(int[] h) {
+        int len = h.length, i = 0, maxArea = 0;
+        // 维护一个栈
+        Stack<Integer> s = new Stack<>();
+        // 当找到h右 < h左时，才能确定h左的右边界
         while (i < len) {
-            while (!stack.isEmpty() && heights[i] < heights[stack.peek()]) {
-                maxArea = Math.max(maxArea, heights[stack.pop()] * (i - (stack.isEmpty() ? 0 : stack.peek() + 1)));
+            while (!s.isEmpty() && h[i] < h[s.peek()]) {
+                // int height = h[s.pop()];
+                // int width = i - (s.isEmpty() ? 0 : s.peek() + 1);
+                maxArea = Math.max(maxArea, h[s.pop()] * (i - (s.isEmpty() ? 0 : s.peek() + 1)));
             }
-            stack.push(i++);
+            s.push(i++);
         }
-
-        while (!stack.isEmpty()) {
-            maxArea = Math.max(maxArea, heights[stack.pop()] * (len - (stack.isEmpty() ? 0 : stack.peek() + 1)));
+        while (!s.isEmpty()) {
+            maxArea = Math.max(maxArea, h[s.pop()] * (len - (s.isEmpty() ? 0 : s.peek() + 1)));
         }
         return maxArea;
     }

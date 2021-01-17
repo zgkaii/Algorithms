@@ -43,10 +43,10 @@ Algorithms
 | 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./LeetCode/list/SwapNodes.java)           | Medium     | 1     |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./LeetCode/list/ReverseNodesKGroup.java)  | Hard       | 1     |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/array/RemoveDuplicates.java)   | Easy       | 1     |
-| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                  | Hard       | 0     |
+| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | [Java](./LeetCode/stack/TrappingRainWater.java)  | Hard       | 1     |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)            | Easy       | 1     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)     | Easy       | 1     |
-| 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |                                                  | Hard       | 0     |
+| 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./LeetCode/stack/LargestRectangle.java)   | Hard       | 1     |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./LeetCode/array/MergeSortedArray.java)   | Easy       | 1     |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)   | Easy       | 1     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)     | Easy       | 1     |
