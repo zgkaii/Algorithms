@@ -160,17 +160,19 @@ public class LinkedQueue {
 class Node {
     int data;
     Node next;
+    Node prev;
 
     public Node() {
         this(0);
     }
 
     public Node(int data) {
-        this(data, null);
+        this(data, null, null);
     }
 
-    public Node(int data, Node next) {
+    public Node(int data, Node next, Node prev) {
         this.data = data;
         this.next = next;
+        this.prev = prev;
     }
 }

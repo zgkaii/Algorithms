@@ -57,4 +57,4 @@ Algorithms
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)   | Easy       | 1     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |                                                  | Hard       | 0     |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./LeetCode/array/MoveZeroes.java)         | Easy       | 1     |
-| 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) |                                                  | Medium     | 0     |
+| 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)    | Medium     | 1     |
