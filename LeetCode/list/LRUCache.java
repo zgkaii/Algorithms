@@ -1,6 +1,7 @@
 package list;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author: Mr.Z
@@ -19,49 +20,77 @@ import java.util.HashMap;
 public class LRUCache {
     private int capacity;
     private int size;
-    DLinkedNode head, tail;
-    HashMap<Integer, Node> map;
+    private DLinkedNode head, tail;
+    private Map<Integer, DLinkedNode> cache = new HashMap<>();
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
         this.size = 0;
-
-        map = new HashMap<>();
-
+        // 伪头部和伪尾部标记界限
+        head = new DLinkedNode();
+        tail = new DLinkedNode();
+        head.next = tail;
+        tail.prev = head;
     }
 
-    private void add(DLinkedNode node) {
+    public int get(int key) {
+        DLinkedNode node = cache.get(key);
+        if (node == null) {
+            return -1;
+        }
+        // key存在，先通过哈希表定位，再移到头部
+        moveToHead(node);
+        return node.value;
+    }
+
+    public void put(int key, int value) {
+        DLinkedNode node = cache.get(key);
+        if (node == null) {
+            // key不存在，双链表头部创建新节点
+            DLinkedNode newNode = new DLinkedNode(key, value);
+            cache.put(key, newNode);
+            addToHead(newNode);
+            ++size;
+            // 超容，删除双链表尾节点，删除哈希表中对应项
+            if (size > capacity) {
+                DLinkedNode tail = removeTail();
+                cache.remove(tail.key);
+                --size;
+            }
+            // 哈希表定位，修改value，移到头部
+        } else {
+            node.value = value;
+            moveToHead(node);
+        }
+    }
+
+    private void addToHead(DLinkedNode node) {
+        node.prev = head;
         node.next = head.next;
         node.next.prev = node;
-        node.prev = head;
         head.next = node;
     }
 
-    private void remove(DLinkedNode node) {
+    private void removeNode(DLinkedNode node) {
         node.prev.next = node.next;
         node.next.prev = node.prev;
     }
 
-    public int get(int key) {
-        return 0;
+    private void moveToHead(DLinkedNode node) {
+        removeNode(node);
+        addToHead(node);
     }
 
-    public void put(int key, int value) {
-        return;
-    }
-
-    /**
-     * Main Method
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
+    private DLinkedNode removeTail() {
+        DLinkedNode res = tail.prev;
+        removeNode(res);
+        return res;
     }
 }
 
 class DLinkedNode {
-    private int key;
-    private int value;
+    public int key;
+    public int value;
 
     DLinkedNode prev;
     DLinkedNode next;
