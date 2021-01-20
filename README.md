@@ -51,7 +51,7 @@ Algorithms
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)     | Easy       | 1     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)       | Easy       | 1     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](./LeetCode/list/LinkedListCycleTwo.java)    | Medium     | 1     |
-| 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     |                                                    | Medium     | 0     |
+| 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     | [Java](./LeetCode/list/LRUCache.java)              | Medium     | 1     |
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     | [Java](./LeetCode/stack/MinStack.java)             | Easy       | 1     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)          | Medium     | 1     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)     | Easy       | 1     |
