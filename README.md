@@ -49,9 +49,12 @@ Algorithms
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)       | Easy       | 1     |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./LeetCode/stack/LargestRectangle.java)     | Hard       | 1     |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./LeetCode/array/MergeSortedArray.java)     | Easy       | 1     |
+| 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./LeetCode/tree/InOrderTraversal.java)      | Medium     | 1     |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)     | Easy       | 1     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)       | Easy       | 1     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](./LeetCode/list/LinkedListCycleTwo.java)    | Medium     | 1     |
+| 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](./LeetCode/tree/PreorderTraversal.java)     | Medium     | 1     |
+| 145  | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](./LeetCode/tree/PostorderTraversal.java)    | Medium     | 1     |
 | 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     | [Java](./LeetCode/list/LRUCache.java)              | Medium     | 1     |
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     | [Java](./LeetCode/stack/MinStack.java)             | Easy       | 1     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)          | Medium     | 1     |
@@ -59,4 +62,7 @@ Algorithms
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](./LeetCode/queue/SlidingWindowMaximum.java) | Hard       | 1     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./LeetCode/hashmap/ValidAnagram.java)       | Easy       | 1     |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./LeetCode/array/MoveZeroes.java)           | Easy       | 1     |
+| 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |                                                    | Medium     |       |
+| 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |                                                    | Easy       |       |
+| 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |                                                    | Easy       |       |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)      | Medium     | 1     |
