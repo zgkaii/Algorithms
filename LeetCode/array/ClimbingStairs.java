@@ -22,7 +22,7 @@ public class ClimbingStairs {
      * @param n
      * @return
      */
-    public int climbStairs(int n) {
+    public int climbStairs1(int n) {
         int[] step = new int[n + 1];
         step[0] = 1;
         step[1] = 1;
@@ -30,5 +30,17 @@ public class ClimbingStairs {
             step[i] = step[i - 1] + step[i - 2];
         }
         return step[n];
+    }
+
+    /**
+     * 递归
+     *
+     * @param n
+     * @return
+     */
+    public int climbStairs2(int n) {
+
+
+        return -1;
     }
 }
