@@ -55,9 +55,9 @@ Algorithms
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./LeetCode/tree/InOrderTraversal.java)              | Medium     | 1     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java) | Medium     | 1     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./LeetCode/tree/LevelOrderTraversal2.java)          | Medium     | 1     |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |                                                            | Easy       |       |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./LeetCode/recursive/MaximumDepth.java)             | Easy       | 1     |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                                                            | Medium     |       |
-| 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) |                                                            | Easy       |       |
+| 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](./LeetCode/recursive/MinimumDepth.java)             | Easy       | 1     |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)             | Easy       | 1     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)               | Easy       | 1     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](./LeetCode/list/LinkedListCycleTwo.java)            | Medium     | 1     |
