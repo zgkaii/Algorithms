@@ -56,7 +56,7 @@ Algorithms
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java) | Medium     | 1     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./LeetCode/tree/LevelOrderTraversal2.java)          | Medium     | 1     |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./LeetCode/recursive/MaximumDepth.java)             | Easy       | 1     |
-| 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                                                            | Medium     |       |
+| 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](./LeetCode/recursive/ConstructBinaryTree.java)      | Medium     | 1     |
 | 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](./LeetCode/recursive/MinimumDepth.java)             | Easy       | 1     |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)             | Easy       | 1     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)               | Easy       | 1     |
@@ -67,7 +67,7 @@ Algorithms
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     | [Java](./LeetCode/stack/MinStack.java)                     | Easy       | 1     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)                  | Medium     | 1     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)             | Easy       | 1     |
-| 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |                                                            | Easy       |       |
+| 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) | [Java](./LeetCode/recursive/InvertBinaryTree.java)         | Easy       | 1     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |                                                            | Medium     |       |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](./LeetCode/queue/SlidingWindowMaximum.java)         | Hard       | 1     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./LeetCode/hashmap/ValidAnagram.java)               | Easy       | 1     |
