@@ -44,7 +44,7 @@ Algorithms
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./LeetCode/list/ReverseNodesKGroup.java)            | Hard       | 1     |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/array/RemoveDuplicates.java)             | Easy       | 1     |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | [Java](./LeetCode/stack/TrappingRainWater.java)            | Hard       | 1     |
-| 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |                                                            | Medium     |       |
+| 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) | [Java](./LeetCode/recursive/Permutations.java)             | Medium     | 1     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) |                                                            | Medium     |       |
 | 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | [Java](./LeetCode/hashmap/GroupAnagrams.java)              | Medium     | 1     |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)                      | Easy       | 1     |
