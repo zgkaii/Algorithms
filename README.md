@@ -37,7 +37,7 @@ Algorithms
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./LeetCode/hashmap/TwoSum.java)                     | Easy       | 1     |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./LeetCode/array/MostWater.java)                    | Medium     | 1     |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./LeetCode/array/ThreeSum.java)                     | Medium     | 1     |
-| 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |                                                            | Medium     |       |
+| 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](./LeetCode/partition/LetterCombinations.java)       | Medium     | 0     |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](./LeetCode/stack/ValidParentheses.java)             | Easy       | 1     |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./LeetCode/list/MergeTwoSortedLists.java)           | Easy       | 1     |
 | 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](./LeetCode/recursive/GenerateParentheses.java)      | Medium     | 1     |
@@ -48,12 +48,12 @@ Algorithms
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) | [Java](./LeetCode/recursive/Permutations.java)             | Medium     | 0     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](./LeetCode/recursive/PermutationsTwo.java)          | Medium     | 0     |
 | 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | [Java](./LeetCode/hashmap/GroupAnagrams.java)              | Medium     | 1     |
-| 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           |                                                            | Medium     |       |
-| 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       |                                                            | Hard       |       |
+| 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           | [Java](./LeetCode/partition/Powxn.java)                    | Medium     | 1     |
+| 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | [Java](./LeetCode/recursive/NQueens.java)                  | Hard       | 0     |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)                      | Easy       | 1     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)               | Easy       | 1     |
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](./LeetCode/recursive/Combinations.java)             | Medium     | 0     |
-| 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         |                                                            | Medium     |       |
+| 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./LeetCode/partition/Subsets.java)                  | Medium     | 0     |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./LeetCode/stack/LargestRectangle.java)             | Hard       | 1     |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./LeetCode/array/MergeSortedArray.java)             | Easy       | 1     |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./LeetCode/tree/InOrderTraversal.java)              | Medium     | 1     |
@@ -69,7 +69,7 @@ Algorithms
 | 145  | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](./LeetCode/tree/PostorderTraversal.java)            | Medium     | 1     |
 | 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     | [Java](./LeetCode/list/LRUCache.java)                      | Medium     | 1     |
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     | [Java](./LeetCode/stack/MinStack.java)                     | Easy       | 1     |
-| 169  | [Majority-Element](https://leetcode-cn.com/problems/majority-element) |                                                            | Easy       |       |
+| 169  | [Majority-Element](https://leetcode-cn.com/problems/majority-element) | [Java](./LeetCode/partition/MajorityElement.java)          | Easy       | 1     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)                  | Medium     | 1     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)             | Easy       | 1     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) | [Java](./LeetCode/recursive/InvertBinaryTree.java)         | Easy       | 1     |
