@@ -8,8 +8,8 @@ package dfsbfs;
 public class MinimumGeneticMutation {
     public int minMutation(String start, String end, String[] bank) {
 
-        
-
+        // bank有end，则计算start转换成end最小次数
+        if (start.length() != end.length()) return -1;
 
         return -1;
     }
