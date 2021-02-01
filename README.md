@@ -21,12 +21,14 @@ Algorithms
 * [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 * [VisuAlgo](https://visualgo.net/en)
 * [LeetCode](https://leetcode-cn.com/)
+* ... ...
 
 ### Other
 
 * https://github.com/TheAlgorithms/Java
 * https://github.com/TheAlgorithms/Python
 * https://github.com/haoel/leetcode
+* ... ...
 
 ## LeetCode
 
@@ -63,7 +65,7 @@ Algorithms
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](./LeetCode/recursive/ConstructBinaryTree.java)      | Medium     | 1     |
 | 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](./LeetCode/recursive/MinimumDepth.java)             | Easy       | 1     |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./LeetCode/string/ValidPalindrome.java)             | Easy       | 1     |
-| 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) |                                                            | Hard       |       |
+| 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) | [Java](./LeetCode/dfsbfs/WordLadderTwo.java)               | Hard       | 0     |
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) | [Java](./LeetCode/dfsbfs/WordLadder.java)                  | Hard       | 0     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](./LeetCode/list/LinkedListCycle.java)               | Easy       | 1     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [Java](./LeetCode/list/LinkedListCycleTwo.java)            | Medium     | 1     |
@@ -84,7 +86,7 @@ Algorithms
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java](./LeetCode/tree/NLevelOrderTraversal.java)          | Medium     | 1     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)      | Medium     | 1     |
 | 515  | [Find-Largest-Value-In-Each-Tree-Row/](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | [Java](./LeetCode/dfsbfs/LargestValue.java)                | Medium     | 1     |
-| 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) | [Java](./LeetCode/dfsbfs/Minesweeper.java)                 | Medium     | 0     |
+| 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) | [Java](./LeetCode/dfsbfs/Minesweeper.java)                 | Medium     | 1     |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | [Java](./LeetCode/tree/NPreorderTraversal.java)            | Easy       | 1     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [Java](./LeetCode/tree/NPreorderTraversal.java)            | Easy       | 1     |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)              | Medium     | 1     |

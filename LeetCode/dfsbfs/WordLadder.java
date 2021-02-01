@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @Author: Mr.Z
  * @DateTime: 2021/01/31 19:53
- * @Description: 127. 单词接龙 https://leetcode-cn.com/problems/word-ladder/
+ * @Description: 127.单词接龙 https://leetcode-cn.com/problems/word-ladder/
  * <p>
  * 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
  * 输出：5
