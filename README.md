@@ -86,7 +86,7 @@ Algorithms
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./LeetCode/hashmap/ValidAnagram.java)               | Easy       | 1     |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./LeetCode/array/MoveZeroes.java)                   | Easy       | 1     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./LeetCode/recursive/Codec.java)                    | Hard       | 0     |
-| 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/) |                                                            | Medium     |       |
+| 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/) | [Java](./LeetCode/dp/CoinChange.java)                      | Medium     | 1     |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java](./LeetCode/tree/NLevelOrderTraversal.java)          | Medium     | 1     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)      | Medium     | 1     |
 | 455  | [Assign-Cookies](https://leetcode-cn.com/problems/assign-cookies/description/) |                                                            | Easy       |       |
