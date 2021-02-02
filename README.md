@@ -95,5 +95,5 @@ Algorithms
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) | [Java](./LeetCode/tree/NPreorderTraversal.java)            | Easy       | 1     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [Java](./LeetCode/tree/NPreorderTraversal.java)            | Easy       | 1     |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)              | Medium     | 1     |
-| 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) |                                                            | Easy       |       |
-| 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) |                                                            | Easy       |       |
+| 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) | [Java](./LeetCode/greedy/LemonadeChange.java)              | Easy       | 1     |
+| 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./LeetCode/greedy/WalkingRobot.java)                | Easy       | 1     |
