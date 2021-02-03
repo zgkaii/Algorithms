@@ -46,7 +46,7 @@ Algorithms
 | 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./LeetCode/list/SwapNodes.java)                     | Medium     | 1     |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./LeetCode/list/ReverseNodesKGroup.java)            | Hard       | 1     |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/array/RemoveDuplicates.java)             | Easy       | 1     |
-| 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |                                                            | Medium     |       |
+| 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)    | Medium     | 1     |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | [Java](./LeetCode/stack/TrappingRainWater.java)            | Hard       | 1     |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](./LeetCode/greedy/JumpGameTwo.java)                 | Hard       | 1     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) | [Java](./LeetCode/recursive/Permutations.java)             | Medium     | 0     |
