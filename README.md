@@ -55,10 +55,12 @@ Algorithms
 | 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           | [Java](./LeetCode/partition/Powxn.java)                    | Medium     | 1     |
 | 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | [Java](./LeetCode/recursive/NQueens.java)                  | Hard       | 0     |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./LeetCode/greedy/JumpGame.java)                    | Medium     | 1     |
+| 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) |                                                            | Medium     |       |
+| 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) |                                                            | Medium     |       |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)                      | Easy       | 1     |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             | [Java](./LeetCode/binarysearch/SqrtX.java)                 | Easy       | 1     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./LeetCode/array/ClimbingStairs.java)               | Easy       | 1     |
-| 74   | [Search-A-2d-Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/) |                                                            | Medium     |       |
+| 74   | [Search-A-2d-Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Java](./LeetCode/binarysearch/Matrix.java)                | Medium     | 1     |
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](./LeetCode/recursive/Combinations.java)             | Medium     | 0     |
 | 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./LeetCode/partition/Subsets.java)                  | Medium     | 0     |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./LeetCode/stack/LargestRectangle.java)             | Hard       | 1     |
@@ -78,7 +80,7 @@ Algorithms
 | 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](./LeetCode/tree/PreorderTraversal.java)             | Medium     | 1     |
 | 145  | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](./LeetCode/tree/PostorderTraversal.java)            | Medium     | 1     |
 | 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     | [Java](./LeetCode/list/LRUCache.java)                      | Medium     | 1     |
-| 153  | [Find-Minimum-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) |                                                            | Medium     |       |
+| 153  | [Find-Minimum-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](./LeetCode/binarysearch/Minimum.java)               | Medium     | 1     |
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     | [Java](./LeetCode/stack/MinStack.java)                     | Easy       | 1     |
 | 169  | [Majority-Element](https://leetcode-cn.com/problems/majority-element) | [Java](./LeetCode/partition/MajorityElement.java)          | Easy       | 1     |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)                  | Medium     | 1     |
@@ -102,3 +104,4 @@ Algorithms
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)              | Medium     | 1     |
 | 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) | [Java](./LeetCode/greedy/LemonadeChange.java)              | Easy       | 1     |
 | 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./LeetCode/greedy/WalkingRobot.java)                | Easy       | 1     |
+| 1143 | [Longest-Common-Subsequence/](https://leetcode-cn.com/problems/longest-common-subsequence/) |                                                            | Medium     |       |
