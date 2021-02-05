@@ -27,20 +27,9 @@ public class ClimbingStairs {
         step[0] = 1;
         step[1] = 1;
         for (int i = 2; i <= n; i++) {
+            // 状态转移方程
             step[i] = step[i - 1] + step[i - 2];
         }
         return step[n];
-    }
-
-    /**
-     * 递归
-     *
-     * @param n
-     * @return
-     */
-    public int climbStairs2(int n) {
-
-
-        return -1;
     }
 }
