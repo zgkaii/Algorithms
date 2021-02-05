@@ -55,7 +55,7 @@ Algorithms
 | 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           | [Java](./LeetCode/partition/Powxn.java)                    | Medium     | 1     |
 | 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | [Java](./LeetCode/recursive/NQueens.java)                  | Hard       | 0     |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./LeetCode/greedy/JumpGame.java)                    | Medium     | 1     |
-| 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) |                                                            | Medium     |       |
+| 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) | [Java](./LeetCode/dp/UniquePaths.java)                   | Medium     | 1     |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) |                                                            | Medium     |       |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./LeetCode/array/PlusOne.java)                      | Easy       | 1     |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             | [Java](./LeetCode/binarysearch/SqrtX.java)                 | Easy       | 1     |
@@ -104,4 +104,4 @@ Algorithms
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](./LeetCode/queue/MyCircularDeque.java)              | Medium     | 1     |
 | 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) | [Java](./LeetCode/greedy/LemonadeChange.java)              | Easy       | 1     |
 | 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./LeetCode/greedy/WalkingRobot.java)                | Easy       | 1     |
-| 1143 | [Longest-Common-Subsequence/](https://leetcode-cn.com/problems/longest-common-subsequence/) |                                                            | Medium     |       |
+| 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Java](./LeetCode/dp/CommonSubsequence.java)          | Medium     | 1     |
