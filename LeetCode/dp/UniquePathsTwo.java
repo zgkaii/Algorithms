@@ -40,21 +40,20 @@ public class UniquePathsTwo {
 
     public int uniquePathsWithObstacles2(int[][] obstacleGrid) {
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
-        int[] cur = new int[n];
-        Arrays.fill(cur, 1);
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-
-                // ?
-                cur[j] += cur[j - 1];
-            }
-        }
-        return cur[n - 1];
+        int[] dp = new int[n + 1];
+        dp[1] = 1;
+        for (int i = 0; i < m; i++)
+            for (int j = 1; j <= n; j++)
+                if (obstacleGrid[i][j - 1] == 1)
+                    dp[j] = 0;
+                else
+                    dp[j] += dp[j - 1];
+        return dp[n];
     }
 
     public static void main(String[] args) {
         int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         UniquePathsTwo u = new UniquePathsTwo();
-        System.out.println(u.uniquePathsWithObstacles1(obstacleGrid));
+        System.out.println(u.uniquePathsWithObstacles2(obstacleGrid));
     }
 }
