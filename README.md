@@ -90,7 +90,7 @@ Algorithms
 | 169  | [Majority-Element](https://leetcode-cn.com/problems/majority-element) | [Java](./LeetCode/partition/MajorityElement.java)          | Easy       | 1     |
 | 188  | [Best-Time-To-Buy-And-Sell-Stock-iv](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) |                                                            | Hard       |       |
 | 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](./LeetCode/array/RotateArray.java)                  | Medium     | 1     |
-| 198  | [House-Robber](https://leetcode-cn.com/problems/house-robber/) |                                                            | Medium     |       |
+| 198  | [House-Robber](https://leetcode-cn.com/problems/house-robber/) | [Java](./LeetCode/dp/HouseRobber.java)                     | Medium     | 1     |
 | 200  | [Number Of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Java](./LeetCode/dfsbfs/NumberOfIslands.java)             | Medium     | 1     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./LeetCode/list/ReverseLinkedList.java)             | Easy       | 1     |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |                                                            | Medium     |       |
