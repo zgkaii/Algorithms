@@ -116,7 +116,7 @@ Algorithms
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) |            | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)      | Medium     | 1     |
 | 455  | [Assign-Cookies](https://leetcode-cn.com/problems/assign-cookies/description/) |            | [Java](./LeetCode/greedy/AssignCookies.java)               | Easy       | 1     |
 | 515  | [Find-Largest-Value-In-Each-Tree-Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |            | [Java](./LeetCode/dfsbfs/LargestValue.java)                | Medium     | 1     |
-| 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |            |                                                            | Medium     |       |
+| 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP         | [Java](./LeetCode/dp/CoinChangeTwo.java)                   | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |            | [Java](./LeetCode/dfsbfs/Minesweeper.java)                 | Medium     | 1     |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |            |                                                            | Hard       |       |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |            | [Java](./LeetCode/tree/NPreorderTraversal.java)            | Easy       | 1     |
