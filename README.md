@@ -82,6 +82,7 @@ Algorithms
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) |            | [Java](./LeetCode/string/ValidPalindrome.java)             | Easy       | 1     |
 | 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) |            | [Java](./LeetCode/dfsbfs/WordLadderTwo.java)               | Hard       | 0     |
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) |            | [Java](./LeetCode/dfsbfs/WordLadder.java)                  | Hard       | 0     |
+| 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) |            |                                                            | Medium     |       |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |            | [Java](./LeetCode/list/LinkedListCycle.java)               | Easy       | 1     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |            | [Java](./LeetCode/list/LinkedListCycleTwo.java)            | Medium     | 1     |
 | 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |            | [Java](./LeetCode/tree/PreorderTraversal.java)             | Medium     | 1     |
@@ -98,6 +99,7 @@ Algorithms
 | 200  | [Number Of Islands](https://leetcode-cn.com/problems/number-of-islands/) |            | [Java](./LeetCode/dfsbfs/NumberOfIslands.java)             | Medium     | 1     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) |            | [Java](./LeetCode/list/ReverseLinkedList.java)             | Easy       | 1     |
 | 208  | [Implement-Trie-Prefix-Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Trie       | [Java](LeetCode/trie/Trie.java)                            | Medium     | ?     |
+| 212  | [Word-Search-ii](https://leetcode-cn.com/problems/word-search-ii/) | Trie       |                                                            | Hard       |       |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |            |                                                            | Medium     |       |
 | 221  | [Maximal Square](https://leetcode.com/problems/maximal-square/) |            |                                                            | Medium     |       |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |            | [Java](./LeetCode/recursive/InvertBinaryTree.java)         | Easy       | 1     |

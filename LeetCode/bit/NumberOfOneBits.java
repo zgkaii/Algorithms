@@ -1,4 +1,4 @@
-package Bit;
+package bit;
 
 /**
  * @Author: Mr.Z
