@@ -57,7 +57,7 @@ Algorithms
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     |               | [Java](./LeetCode/greedy/JumpGame.java)                    | Medium     | 1     |
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) |               | [Java](./LeetCode/dp/UniquePaths.java)                     | Medium     | 1     |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) |               | [Java](./LeetCode/dp/UniquePathsTwo.java)                  | Medium     | 1     |
-| 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) |               |                                                            | Medium     |       |
+| 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) |               | [Java](./LeetCode/dp/MinimumPathSum.java)                  | Medium     | !     |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       |               | [Java](./LeetCode/array/PlusOne.java)                      | Easy       | 1     |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             |               | [Java](./LeetCode/binarysearch/SqrtX.java)                 | Easy       | 1     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |               | [Java](./LeetCode/dp/ClimbingStairs.java)                  | Easy       | !!    |
@@ -106,7 +106,7 @@ Algorithms
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)     | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)         | Hard       | !     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) |               | [Java](./LeetCode/hashmap/ValidAnagram.java)               | Easy       | !     |
-| 279  | [Perfect-Squares/](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                            | Medium     |       |
+| 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                            | Medium     |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) |               | [Java](./LeetCode/array/MoveZeroes.java)                   | Easy       | !     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |               | [Java](./LeetCode/recursive/Codec.java)                    | Hard       | 0     |
 | 309  | [Best-Time-To-Buy-And-Sell-Stock-With-Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |               |                                                            | Medium     |       |
