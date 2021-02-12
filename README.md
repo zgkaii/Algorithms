@@ -46,8 +46,8 @@ Algorithms
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |               | [Java](./LeetCode/array/RemoveDuplicates.java)             | Easy       | !     |
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |               |                                                            | Hard       |       |
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |               | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)    | Medium     | !     |
-| 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |               |                                                            | Medium     |       |
-| 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               |                                                            | Hard       |       |
+| 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |               | [Java](./LeetCode/array/ValidSudoku.java)                  | Medium     | ?     |
+| 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               |                                                            | Hard       | ?     |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) |               | [Java](./LeetCode/stack/TrappingRainWater.java)            | Hard       | !     |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |               | [Java](./LeetCode/greedy/JumpGameTwo.java)                 | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |               | [Java](./LeetCode/recursive/Permutations.java)             | Medium     | ?     |
