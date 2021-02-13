@@ -47,7 +47,7 @@ Algorithms
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |               |                                                            | Hard       |       |
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |               | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)    | Medium     | !     |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |               | [Java](./LeetCode/array/ValidSudoku.java)                  | Medium     | ?     |
-| 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               |                                                            | Hard       | ?     |
+| 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               | [Java](./LeetCode/recursive/ValidSudokuTwo.java)           | Hard       | ?     |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) |               | [Java](./LeetCode/stack/TrappingRainWater.java)            | Hard       | !     |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |               | [Java](./LeetCode/greedy/JumpGameTwo.java)                 | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |               | [Java](./LeetCode/recursive/Permutations.java)             | Medium     | ?     |
@@ -58,7 +58,7 @@ Algorithms
 | 52   | [N-Queens-ii](https://leetcode-cn.com/problems/n-queens-ii/description/) |               |                                                            | Hard       |       |
 | 53   | [Maximum-Subarray](https://leetcode-cn.com/problems/maximum-subarray/) |               | [Java](./LeetCode/dp/MaximumSubarray.java)                 | Easy       | !?    |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     |               | [Java](./LeetCode/greedy/JumpGame.java)                    | Medium     | !     |
-| 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) |               |                                                            | Medium     |       |
+| 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) |               | [Java](./LeetCode/sort/MergeIntervals.java)                | Medium     | !     |
 | 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) |               |                                                            | Easy       |       |
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) |               | [Java](./LeetCode/dp/UniquePaths.java)                     | Medium     | !     |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) |               | [Java](./LeetCode/dp/UniquePathsTwo.java)                  | Medium     | !     |
@@ -73,7 +73,7 @@ Algorithms
 | 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         |               | [Java](./LeetCode/partition/Subsets.java)                  | Medium     | ?     |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |               | [Java](./LeetCode/stack/LargestRectangle.java)             | Hard       | !     |
 | 85   | [Maximal-Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) |               |                                                            | Hard       |       |
-| 91   | [Decode Ways](https://leetcode.com/problems/decode-ways/)    |               |                                                            | Medium     |       |
+| 91   | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | DP            | [Java](./LeetCode/dp/DecodeWays.java)                      | Medium     | ?     |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |               | [Java](./LeetCode/array/MergeSortedArray.java)             | Easy       | !     |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |               | [Java](./LeetCode/tree/InOrderTraversal.java)              | Medium     | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) |               | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java) | Medium     | !     |
@@ -125,7 +125,7 @@ Algorithms
 | 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/) |               |                                                            | Medium     |       |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |               |                                                            | Hard       |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) |               | [Java](./LeetCode/binarysearch/ValidPerfectSquare.java)    | Easy       | !     |
-| 403  | [Frog Jump](https://leetcode.com/problems/frog-jump/)        |               |                                                            | Hard       |       |
+| 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     |               | [Java](./LeetCode/dp/FrogJump.java)                        | Hard       |       |
 | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |               |                                                            | Hard       |       |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/NLevelOrderTraversal.java)          | Medium     | !     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) |               | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)      | Medium     | !     |

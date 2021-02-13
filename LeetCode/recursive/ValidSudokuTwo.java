@@ -7,19 +7,17 @@ package recursive;
  **/
 public class ValidSudokuTwo {
     public void solveSudoku1(char[][] board) {
-        if (board == null || board.length == 0) return;
-        solve(board);
+        solve(board, 0, 0);
     }
 
-    private boolean solve(char[][] board) {
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
+    private boolean solve(char[][] board, int row, int col) {
+        for (int i = row; i < 9; i++) {
+            for (int j = col; j < 9; j++) {
                 if (board[i][j] != '.') continue;
-                for (char c = '1'; c <= '9'; c++) {
-                    if (isValid(board, i, j, c)) {// 判断传入数字是否合规
-                        board[i][j] = c;
-                        if (solve(board))
-                            return true;
+                for (char num = '1'; num <= '9'; num++) {
+                    if (isValid(board, i, j, num)) {// 判断传入数字是否合规
+                        board[i][j] = num;
+                        if (solve(board, i, j + 1)) return true;
                         board[i][j] = '.';// 撤销选择，回溯
                     }
                     return false;
@@ -29,13 +27,12 @@ public class ValidSudokuTwo {
         return true;
     }
 
-    private boolean isValid(char[][] board, int row, int col, char c) {
-        
-        for (int i = 0; i < 9; i++) {
-            if (board[i][col] == c) return false;// check 列
-            if (board[row][i] == c) return false;// check 行
-            if (board[3 * (row / 3) + i / 3][3 * (col / 3) + i % 3] == c) return false;// check 3*3 块
-        }
+    private boolean isValid(char[][] board, int row, int col, char num) {
+        int cRow = 3 * (row / 3), cCol = 3 * (col / 3);
+        for (int i = 0; i < 9; i++)
+            // 判断行，列，3*3代码块中存在重复数字 return false
+            if (board[i][col] == num || board[row][i] == num || board[cRow + i / 3][cCol + i % 3] == num)
+                return false;
         return true;
     }
 }
