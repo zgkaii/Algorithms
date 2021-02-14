@@ -125,7 +125,7 @@ Algorithms
 | 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/) |               |                                                            | Medium     |       |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |               |                                                            | Hard       |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) |               | [Java](./LeetCode/binarysearch/ValidPerfectSquare.java)    | Easy       | !     |
-| 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     |               | [Java](./LeetCode/dp/FrogJump.java)                        | Hard       |       |
+| 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     | DP            | [Java](./LeetCode/dp/FrogJump.java)                        | Hard       | ?     |
 | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |               |                                                            | Hard       |       |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/NLevelOrderTraversal.java)          | Medium     | !     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) |               | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)      | Medium     | !     |
