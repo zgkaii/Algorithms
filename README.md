@@ -109,7 +109,7 @@ Algorithms
 | 208  | [Implement-Trie-Prefix-Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Trie          | [Java](LeetCode/trie/Trie.java)                              | Medium     | ?     |
 | 212  | [Word-Search-ii](https://leetcode-cn.com/problems/word-search-ii/) | Trie          |                                                              | Hard       |       |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |               |                                                              | Medium     |       |
-| 221  | [Maximal Square](https://leetcode.com/problems/maximal-square/) |               |                                                              | Medium     |       |
+| 221  | [Maximal Square](https://leetcode-cn.com/problems/maximal-square/) | DP            | [Java](./LeetCode/dp/MaximalSquare.java)                     | Medium     | ?     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |               | [Java](./LeetCode/recursive/InvertBinaryTree.java)           | Easy       | !     |
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) |               |                                                              | Easy       |       |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
@@ -151,6 +151,7 @@ Algorithms
 | 1091 | [Shortest-Path-In-Binary-Matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) |               |                                                              | Medium     |       |
 | 1122 | [Relative-Sort-Array](https://leetcode-cn.com/problems/relative-sort-array/) |               |                                                              | Easy       |       |
 | 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) |               | [Java](./LeetCode/dp/CommonSubsequence.java)                 | Medium     | !     |
+| 1277 | [Count-Square-Submatrices-With-All-Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) | DP            | [Java](./LeetCode/dp/SquareSubmatrices.java)                 | Medium     | ?     |
 
 > DP --- Dynamic Programming；BO——Bitwise Operation
 >
