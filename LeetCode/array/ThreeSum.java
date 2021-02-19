@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @Author: Mr.Z
  * @DateTime: 2021/01/13 22:23
- * @Description: 15.三数之和 https://leetcode.com/problems/3sum/
+ * @Description: 15.三数之和 https://leetcode-cn.com/problems/3sum/
  * Input: nums = [-1,0,1,2,-1,-4]
  * Output: [[-1,-1,2],[-1,0,1]]
  **/

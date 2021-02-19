@@ -34,7 +34,7 @@ Algorithms
 
 | NO.  | Title                                                        | Topics        | Solution                                                     | Difficulty | Times |
 | ---- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ---------- | ----- |
-| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | Hash Table    | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
+| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | HashMap       | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !     |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !     |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
@@ -52,7 +52,7 @@ Algorithms
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |               | [Java](./LeetCode/greedy/JumpGameTwo.java)                   | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |               | [Java](./LeetCode/recursive/Permutations.java)               | Medium     | ?     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) |               | [Java](./LeetCode/recursive/PermutationsTwo.java)            | Medium     | ?     |
-| 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) |               | [Java](./LeetCode/hashmap/GroupAnagrams.java)                | Medium     | !     |
+| 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | HashMap       | [Java](./LeetCode/hashmap/GroupAnagrams.java)                | Medium     | !?    |
 | 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           |               | [Java](./LeetCode/partition/Powxn.java)                      | Medium     | !     |
 | 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       |               | [Java](./LeetCode/recursive/NQueens.java)                    | Hard       |       |
 | 52   | [N-Queens-ii](https://leetcode-cn.com/problems/n-queens-ii/description/) |               |                                                              | Hard       |       |
@@ -89,7 +89,7 @@ Algorithms
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) |               | [Java](./LeetCode/string/ValidPalindrome.java)               | Easy       | !     |
 | 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) |               | [Java](./LeetCode/dfsbfs/WordLadderTwo.java)                 | Hard       | ?     |
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) |               | [Java](./LeetCode/dfsbfs/WordLadder.java)                    | Hard       | ?     |
-| 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) |               |                                                              | Hard       |       |
+| 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) | HashMap       | [Java](./LeetCode/hashmap/LongestConsecutiveSequence.java)   | Hard       | ?     |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | Disjoint Sets | [Java](./SurroundedRegions)                                  | Medium     | ?     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !     |
@@ -116,7 +116,7 @@ Algorithms
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)           | Hard       | !     |
-| 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) |               | [Java](./LeetCode/hashmap/ValidAnagram.java)                 | Easy       | !     |
+| 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) |               | [Java](./LeetCode/hashmap/ValidAnagram.java)                 | Easy       | !?    |
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                              | Medium     |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) |               | [Java](./LeetCode/array/MoveZeroes.java)                     | Easy       | !     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |               | [Java](./LeetCode/recursive/Codec.java)                      | Hard       | ?     |
@@ -132,12 +132,14 @@ Algorithms
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/NLevelOrderTraversal.java)            | Medium     | !     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) |               | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)        | Medium     | !     |
 | 455  | [Assign-Cookies](https://leetcode-cn.com/problems/assign-cookies/description/) |               | [Java](./LeetCode/greedy/AssignCookies.java)                 | Easy       | !     |
+| 485  | [Max-Consecutive-Ones](https://leetcode-cn.com/problems/max-consecutive-ones/description/) |               | [Java](./LeetCode/array/MaxOnes.java)                        | Easy       | ?     |
 | 493  | [Reverse-Pairs](https://leetcode-cn.com/problems/reverse-pairs/) |               |                                                              | Hard       |       |
 | 515  | [Find-Largest-Value-In-Each-Tree-Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |               | [Java](./LeetCode/dfsbfs/LargestValue.java)                  | Medium     | !     |
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
-| 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       |                                                              | Medium     |       |
+| 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       | [Java](./LeetCode/hashmap/DecodeTinyurl.java)                | Medium     | ?     |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |               |                                                              | Hard       |       |
+| 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) |               |                                                              | Easy       |       |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 594  | [Longest-Harmonious-Subsequence](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/) | HashMap       | [Java](./LeetCode/hashmap/LongestHarmoniousSubsequence.java) | Easy       | !     |
