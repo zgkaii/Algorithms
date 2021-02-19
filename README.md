@@ -34,7 +34,7 @@ Algorithms
 
 | NO.  | Title                                                        | Topics        | Solution                                                     | Difficulty | Times |
 | ---- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ---------- | ----- |
-| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | Hash Table    | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!    |
+| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | Hash Table    | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !     |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !     |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
@@ -89,6 +89,7 @@ Algorithms
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) |               | [Java](./LeetCode/string/ValidPalindrome.java)               | Easy       | !     |
 | 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) |               | [Java](./LeetCode/dfsbfs/WordLadderTwo.java)                 | Hard       | ?     |
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) |               | [Java](./LeetCode/dfsbfs/WordLadder.java)                    | Hard       | ?     |
+| 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) |               |                                                              | Hard       |       |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | Disjoint Sets | [Java](./SurroundedRegions)                                  | Medium     | ?     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !     |
@@ -109,6 +110,7 @@ Algorithms
 | 208  | [Implement-Trie-Prefix-Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Trie          | [Java](LeetCode/trie/Trie.java)                              | Medium     | ?     |
 | 212  | [Word-Search-ii](https://leetcode-cn.com/problems/word-search-ii/) | Trie          |                                                              | Hard       |       |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |               |                                                              | Medium     |       |
+| 217  | [Contains-Duplicate](https://leetcode-cn.com/problems/contains-duplicate/description/) | HashMap       | [Java](./LeetCode/hashmap/ContainsDuplicate.java)            | Easy       | !     |
 | 221  | [Maximal Square](https://leetcode-cn.com/problems/maximal-square/) | DP            | [Java](./LeetCode/dp/MaximalSquare.java)                     | Medium     | ?     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |               | [Java](./LeetCode/recursive/InvertBinaryTree.java)           | Easy       | !     |
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
@@ -134,9 +136,11 @@ Algorithms
 | 515  | [Find-Largest-Value-In-Each-Tree-Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |               | [Java](./LeetCode/dfsbfs/LargestValue.java)                  | Medium     | !     |
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
+| 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       |                                                              | Medium     |       |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |               |                                                              | Hard       |       |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
+| 594  | [Longest-Harmonious-Subsequence](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/) | HashMap       | [Java](./LeetCode/hashmap/LongestHarmoniousSubsequence.java) | Easy       | !     |
 | 621  | [Task-Scheduler](https://leetcode-cn.com/problems/task-scheduler/) |               |                                                              | Medium     |       |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) |               | [Java](./LeetCode/queue/MyCircularDeque.java)                | Medium     | !     |
 | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) |               |                                                              | Medium     |       |
