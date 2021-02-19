@@ -111,14 +111,14 @@ Algorithms
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |               |                                                              | Medium     |       |
 | 221  | [Maximal Square](https://leetcode-cn.com/problems/maximal-square/) | DP            | [Java](./LeetCode/dp/MaximalSquare.java)                     | Medium     | ?     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |               | [Java](./LeetCode/recursive/InvertBinaryTree.java)           | Easy       | !     |
-| 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) |               |                                                              | Easy       |       |
+| 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)           | Hard       | !     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) |               | [Java](./LeetCode/hashmap/ValidAnagram.java)                 | Easy       | !     |
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                              | Medium     |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) |               | [Java](./LeetCode/array/MoveZeroes.java)                     | Easy       | !     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |               | [Java](./LeetCode/recursive/Codec.java)                      | Hard       | ?     |
-| 300  | [Longest-Increasing-Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |               |                                                              | Medium     |       |
+| 300  | [Longest-Increasing-Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | BS            | [Java](./LeetCode/dfsbfs/LongestIncreasingSubsequence.java)  | Medium     | ?     |
 | 309  | [Best-Time-To-Buy-And-Sell-Stock-With-Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |               |                                                              | Medium     |       |
 | 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) |               |                                                              | Hard       |       |
 | 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/)&hearts; | DP            | [Java](./LeetCode/dp/CoinChange.java)                        | Medium     | !     |
@@ -153,6 +153,6 @@ Algorithms
 | 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) |               | [Java](./LeetCode/dp/CommonSubsequence.java)                 | Medium     | !     |
 | 1277 | [Count-Square-Submatrices-With-All-Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) | DP            | [Java](./LeetCode/dp/SquareSubmatrices.java)                 | Medium     | ?     |
 
-> DP --- Dynamic Programming；BO——Bitwise Operation
+> DP --- Dynamic Programming；BO——Bitwise Operation ; BS——Binary Search
 >
 > ! --- success ; ? --- failure
