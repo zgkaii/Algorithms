@@ -63,7 +63,7 @@ Algorithms
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) |               | [Java](./LeetCode/dp/UniquePaths.java)                       | Medium     | !     |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) |               | [Java](./LeetCode/dp/UniquePathsTwo.java)                    | Medium     | !     |
 | 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) |               | [Java](./LeetCode/dp/MinimumPathSum.java)                    | Medium     | !     |
-| 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       |               | [Java](./LeetCode/array/PlusOne.java)                        | Easy       | !     |
+| 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       |               | [Java](./LeetCode/array/PlusOne.java)                        | Easy       | !?    |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             |               | [Java](./LeetCode/binarysearch/SqrtX.java)                   | Easy       | !     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |               | [Java](./LeetCode/dp/ClimbingStairs.java)                    | Easy       | !!    |
 | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)&hearts; |               |                                                              | Hard       |       |
