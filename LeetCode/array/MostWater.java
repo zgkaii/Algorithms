@@ -12,7 +12,7 @@ public class MostWater {
      * @param height
      * @return
      */
-    public int maxArea(int[] height) {
+    public int maxArea1(int[] height) {
         int max = 0;
         for (int i = 0, j = height.length - 1; i < j; ) {
             int minHeight = height[i] < height[j] ? height[i++] : height[j--];
@@ -20,5 +20,18 @@ public class MostWater {
             max = Math.max(max, area);
         }
         return max;
+    }
+
+    public int maxArea2(int[] height) {
+        if (height == null || height.length == 0) return 0;
+        int i = 0, j = height.length - 1, water = 0;
+
+        while (i < j) {
+            int h = Math.min(height[i], height[j]);
+            water = Math.max(water, (j - i) * h);
+            while (i < j && height[i] <= h) i++;
+            while (i < j && height[j] <= h) j--;
+        }
+        return water;
     }
 }

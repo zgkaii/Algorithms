@@ -35,8 +35,8 @@ Algorithms
 | NO.  | Title                                                        | Topics        | Solution                                                     | Difficulty | Times |
 | ---- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ---------- | ----- |
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | HashMap       | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
-| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !     |
-| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !     |
+| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !！   |
+| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !？   |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?    |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |               | [Java](./LeetCode/list/MergeTwoSortedLists.java)             | Easy       | !     |
@@ -74,7 +74,7 @@ Algorithms
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |               | [Java](./LeetCode/stack/LargestRectangle.java)               | Hard       | !     |
 | 85   | [Maximal-Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) |               |                                                              | Hard       |       |
 | 91   | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | DP            | [Java](./LeetCode/dp/DecodeWays.java)                        | Medium     | ?     |
-| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |               | [Java](./LeetCode/array/MergeSortedArray.java)               | Easy       | !     |
+| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |               | [Java](./LeetCode/array/MergeSortedArray.java)               | Easy       | !!    |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |               | [Java](./LeetCode/tree/InOrderTraversal.java)                | Medium     | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) |               | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java)   | Medium     | !     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/LevelOrderTraversal2.java)            | Medium     | !     |
@@ -91,6 +91,7 @@ Algorithms
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) |               | [Java](./LeetCode/dfsbfs/WordLadder.java)                    | Hard       | ?     |
 | 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) | HashMap       | [Java](./LeetCode/hashmap/LongestConsecutiveSequence.java)   | Hard       | ?     |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | Disjoint Sets | [Java](./SurroundedRegions)                                  | Medium     | ?     |
+| 138  |                                                              |               |                                                              |            |       |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !     |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !     |
 | 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |               | [Java](./LeetCode/tree/PreorderTraversal.java)               | Medium     | !     |
@@ -101,7 +102,7 @@ Algorithms
 | 155  | [Min Stack](https://leetcode-cn.com/problems/min-stack/)     |               | [Java](./LeetCode/stack/MinStack.java)                       | Easy       | !     |
 | 169  | [Majority-Element](https://leetcode-cn.com/problems/majority-element) |               | [Java](./LeetCode/partition/MajorityElement.java)            | Easy       | !     |
 | 188  | [Best-Time-To-Buy-And-Sell-Stock-iv](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) |               |                                                              | Hard       |       |
-| 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) |               | [Java](./LeetCode/array/RotateArray.java)                    | Medium     | !     |
+| 189  | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) |               | [Java](./LeetCode/array/RotateArray.java)                    | Medium     | !?    |
 | 190  | [Reverse-Bits](https://leetcode-cn.com/problems/reverse-bits/) | BO            | [Java](./LeetCode/bit/ReverseBits.java)、[Python](./LeetCode-Python/bit/ReverseBits.py) | Easy       | ?     |
 | 191  | [Number-Of-1-Bits](https://leetcode-cn.com/problems/number-of-1-bits/) | BO            | [Java](./LeetCode/bit/HammingWeight.java)、[Python](./LeetCode-Python/bit/NumberOfBits.py) | Easy       | ?     |
 | 198  | [House-Robber](https://leetcode-cn.com/problems/house-robber/) |               | [Java](./LeetCode/dp/HouseRobber.java)                       | Medium     | !     |
@@ -116,6 +117,7 @@ Algorithms
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)           | Hard       | !     |
+| 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) |               | [Java](./LeetCode/matrix/SearchMatrix.java)                  | Medium     | !     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) |               | [Java](./LeetCode/hashmap/ValidAnagram.java)                 | Easy       | !?    |
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                              | Medium     |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) |               | [Java](./LeetCode/array/MoveZeroes.java)                     | Easy       | !     |
@@ -127,6 +129,7 @@ Algorithms
 | 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/) |               |                                                              | Medium     |       |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |               |                                                              | Hard       |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) |               | [Java](./LeetCode/binarysearch/ValidPerfectSquare.java)      | Easy       | !     |
+| 378  | [Kth-Smallest-Element-In-A-Sorted-Matrix/](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) |               | [Java](./LeetCode/matrix/KthSmallest.java)                   | Medium     | ?     |
 | 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     | DP            | [Java](./LeetCode/dp/FrogJump.java)                          | Hard       | ?     |
 | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |               |                                                              | Hard       |       |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/NLevelOrderTraversal.java)            | Medium     | !     |
@@ -139,7 +142,7 @@ Algorithms
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
 | 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       | [Java](./LeetCode/hashmap/DecodeTinyurl.java)                | Medium     | ?     |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |               |                                                              | Hard       |       |
-| 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) |               |                                                              | Easy       |       |
+| 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) |               | [Java](./LeetCode/matrix/ReshapeTheMatrix.java)              | Easy       | ?     |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 594  | [Longest-Harmonious-Subsequence](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/) | HashMap       | [Java](./LeetCode/hashmap/LongestHarmoniousSubsequence.java) | Easy       | !     |
@@ -149,6 +152,7 @@ Algorithms
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |               |                                                              | Easy       |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |               |                                                              | Medium     |       |
 | 746  | [Min-Cost-Climbing-Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) |               |                                                              | Easy       |       |
+| 766  | [Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix/) |               | [Java](./LeetCode/matrix/ToeplitzMatrix.java)                | Easy       | ?     |
 | 773  | [Sliding-Puzzle](https://leetcode-cn.com/problems/sliding-puzzle/) |               |                                                              | Hard       |       |
 | 818  | [Race-Car](https://leetcode-cn.com/problems/race-car/)       |               |                                                              | Hard       |       |
 | 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) |               | [Java](./LeetCode/greedy/LemonadeChange.java)                | Easy       | !     |

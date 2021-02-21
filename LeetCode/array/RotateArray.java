@@ -60,13 +60,4 @@ public class RotateArray {
 //            nums[j--] = tmp;
         }
     }
-
-    /**
-     *
-     * @param nums
-     * @param k
-     */
-    public void rotate3(int[] nums, int k) {
-
-    }
 }
