@@ -38,10 +38,11 @@ Algorithms
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !！   |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !？   |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
+| 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |               | [Java](./LeetCode/list/RemoveNthNode.java)                   | Medium     | ?     |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?    |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |               | [Java](./LeetCode/list/MergeTwoSortedLists.java)             | Easy       | !!    |
 | 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) |               | [Java](./LeetCode/recursive/GenerateParentheses.java)        | Medium     | !     |
-| 23   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |               | [Java](./LeetCode/list/SwapNodes.java)                       | Medium     | !     |
+| 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |               | [Java](./LeetCode/list/SwapNodes.java)                       | Medium     | !?    |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |               | [Java](./LeetCode/list/ReverseNodesKGroup.java)              | Hard       | !     |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |               | [Java](./LeetCode/array/RemoveDuplicates.java)               | Easy       | !     |
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |               |                                                              | Hard       |       |
@@ -117,6 +118,7 @@ Algorithms
 | 221  | [Maximal Square](https://leetcode-cn.com/problems/maximal-square/) | DP            | [Java](./LeetCode/dp/MaximalSquare.java)                     | Medium     | ?     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |               | [Java](./LeetCode/recursive/InvertBinaryTree.java)           | Easy       | !     |
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
+| 234  | [Palindrome-Linked-List](https://leetcode-cn.com/problems/palindrome-linked-list/) |               | [Java](./LeetCode/list/PalindromeLinkedList.java)            | Easy       | !     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)           | Hard       | !     |
 | 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) |               | [Java](./LeetCode/matrix/SearchMatrix.java)                  | Medium     | !     |
