@@ -12,15 +12,18 @@ public class PalindromeLinkedList {
     public boolean isPalindrome1(ListNode head) {
         // 快慢指针
         // 链表分为两部分=>翻转后半部分=>比较两部分是否相等=>恢复链表=>返回结果
-        // 1->2->2->1->null => 1->2->2->1->null => 1->1  null<-2<-1
-        //s/f                        s      f      h              s
+        // 1 ->2->2->1->null => 1->2->2->1->null => 1->2  null<-2<-1  (奇数节点)
+        // s/f                        s     f       h              s
+
+        // 1 ->2->3->2->1->null => 1->2->3->2->1->null => 1->2 3<-2<-1 (偶数节点)
+        // s/f                           s        f       h          s
         ListNode fast = head, slow = head;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
         }
 
-        if (fast != null) slow = slow.next;// 偶数节点，让 slow 指向下一个节点??
+        if (fast != null) slow = slow.next;// 偶数节点，让 slow 指向下一个节点
         slow = reverse(slow);
         fast = head;
 

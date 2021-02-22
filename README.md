@@ -94,8 +94,8 @@ Algorithms
 | 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) | HashMap       | [Java](./LeetCode/hashmap/LongestConsecutiveSequence.java)   | Hard       | ?     |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | Disjoint Sets | [Java](./SurroundedRegions)                                  | Medium     | ?     |
 | 138  | [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) |               |                                                              | Medium     |       |
-| 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !     |
-| 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !     |
+| 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !!    |
+| 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !?    |
 | 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |               | [Java](./LeetCode/tree/PreorderTraversal.java)               | Medium     | !     |
 | 145  | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) |               | [Java](./LeetCode/tree/PostorderTraversal.java)              | Medium     | !     |
 | 146  | [LRU Cache](https://leetcode-cn.com/problems/lru-cache/)     |               | [Java](./LeetCode/list/LRUCache.java)                        | Medium     | !     |
@@ -130,6 +130,7 @@ Algorithms
 | 309  | [Best-Time-To-Buy-And-Sell-Stock-With-Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |               |                                                              | Medium     |       |
 | 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) |               |                                                              | Hard       |       |
 | 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/)&hearts; | DP            | [Java](./LeetCode/dp/CoinChange.java)                        | Medium     | !     |
+| 328  | [Odd-Even-Linked-List](https://leetcode-cn.com/problems/odd-even-linked-list/description/) |               | [Java](./LeetCode/list/OddEven.java)                         | Medium     | ?     |
 | 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/) |               |                                                              | Medium     |       |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |               |                                                              | Hard       |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) |               | [Java](./LeetCode/binarysearch/ValidPerfectSquare.java)      | Easy       | !     |
@@ -155,6 +156,7 @@ Algorithms
 | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) |               |                                                              | Medium     |       |
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |               |                                                              | Easy       |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |               |                                                              | Medium     |       |
+| 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) |               | [Java](./LeetCode/list/SplitListToParts.java)                | Medium     | ?     |
 | 746  | [Min-Cost-Climbing-Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) |               |                                                              | Easy       |       |
 | 766  | [Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix/) |               | [Java](./LeetCode/matrix/ToeplitzMatrix.java)                | Easy       | ?     |
 | 773  | [Sliding-Puzzle](https://leetcode-cn.com/problems/sliding-puzzle/) |               |                                                              | Hard       |       |
