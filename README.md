@@ -93,7 +93,7 @@ Algorithms
 | 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) |               | [Java](./LeetCode/dfsbfs/WordLadder.java)                    | Hard       | ?     |
 | 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) | HashMap       | [Java](./LeetCode/hashmap/LongestConsecutiveSequence.java)   | Hard       | ?     |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | Disjoint Sets | [Java](./SurroundedRegions)                                  | Medium     | ?     |
-| 138  | [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) |               |                                                              | Medium     |       |
+| 138  | [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) |               | [Java](./LeetCode/list/RandomPointer.java)                   | Medium     | ?     |
 | 141  | [Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |               | [Java](./LeetCode/list/LinkedListCycle.java)                 | Easy       | !!    |
 | 142  | [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |               | [Java](./LeetCode/list/LinkedListCycleTwo.java)              | Medium     | !?    |
 | 144  | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |               | [Java](./LeetCode/tree/PreorderTraversal.java)               | Medium     | !     |
