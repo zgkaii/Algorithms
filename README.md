@@ -116,8 +116,10 @@ Algorithms
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |               |                                                              | Medium     |       |
 | 217  | [Contains-Duplicate](https://leetcode-cn.com/problems/contains-duplicate/description/) | HashMap       | [Java](./LeetCode/hashmap/ContainsDuplicate.java)            | Easy       | !     |
 | 221  | [Maximal Square](https://leetcode-cn.com/problems/maximal-square/) | DP            | [Java](./LeetCode/dp/MaximalSquare.java)                     | Medium     | ?     |
+| 225  | [Implement Stack using Queues](https://leetcode-cn.com/problems/implement-stack-using-queues/description/) | Stack         | [Java](./LeetCode/stack/MyStack.java)                        | Easy       | !     |
 | 226  | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) |               | [Java](./LeetCode/recursive/InvertBinaryTree.java)           | Easy       | !     |
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | BO            | [Java](./LeetCode/bit/PowerOfTwo.java)                       | Easy       | ?     |
+| 232  | [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/) | Stack         | [Java](./LeetCode/stack/MyQueue.java)                        | Easy       | !     |
 | 234  | [Palindrome-Linked-List](https://leetcode-cn.com/problems/palindrome-linked-list/) |               | [Java](./LeetCode/list/PalindromeLinkedList.java)            | Easy       | !     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |               | [Java](./LeetCode/recursive/LowestCommonAncestor.java)       | Medium     | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) |               | [Java](./LeetCode/queue/SlidingWindowMaximum.java)           | Hard       | !     |
@@ -157,6 +159,7 @@ Algorithms
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |               |                                                              | Easy       |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |               |                                                              | Medium     |       |
 | 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) |               | [Java](./LeetCode/list/SplitListToParts.java)                | Medium     | ?     |
+| 739  | [DailyTemperatures](https://leetcode-cn.com/problems/daily-temperatures/) | Stack         | [Java](./LeetCode/stack/DailyTemperatures.java)              | Medium     | ?     |
 | 746  | [Min-Cost-Climbing-Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) |               |                                                              | Easy       |       |
 | 766  | [Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix/) |               | [Java](./LeetCode/matrix/ToeplitzMatrix.java)                | Easy       | ?     |
 | 773  | [Sliding-Puzzle](https://leetcode-cn.com/problems/sliding-puzzle/) |               |                                                              | Hard       |       |
