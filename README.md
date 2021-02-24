@@ -39,7 +39,7 @@ Algorithms
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !？   |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
 | 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |               | [Java](./LeetCode/list/RemoveNthNode.java)                   | Medium     | ?     |
-| 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?    |
+| 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?!   |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |               | [Java](./LeetCode/list/MergeTwoSortedLists.java)             | Easy       | !!    |
 | 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) |               | [Java](./LeetCode/recursive/GenerateParentheses.java)        | Medium     | !     |
 | 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |               | [Java](./LeetCode/list/SwapNodes.java)                       | Medium     | !?    |
@@ -49,7 +49,7 @@ Algorithms
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |               | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)      | Medium     | !     |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |               | [Java](./LeetCode/array/ValidSudoku.java)                    | Medium     | ?     |
 | 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               | [Java](./LeetCode/recursive/ValidSudokuTwo.java)             | Hard       | ?     |
-| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) |               | [Java](./LeetCode/stack/TrappingRainWater.java)              | Hard       | !     |
+| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | Stack、DP     | [Java](./LeetCode/stack/TrappingRainWater.java)              | Hard       | !     |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |               | [Java](./LeetCode/greedy/JumpGameTwo.java)                   | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |               | [Java](./LeetCode/recursive/Permutations.java)               | Medium     | ?     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) |               | [Java](./LeetCode/recursive/PermutationsTwo.java)            | Medium     | ?     |
@@ -144,6 +144,7 @@ Algorithms
 | 455  | [Assign-Cookies](https://leetcode-cn.com/problems/assign-cookies/description/) |               | [Java](./LeetCode/greedy/AssignCookies.java)                 | Easy       | !     |
 | 485  | [Max-Consecutive-Ones](https://leetcode-cn.com/problems/max-consecutive-ones/description/) |               | [Java](./LeetCode/array/MaxOnes.java)                        | Easy       | ?     |
 | 493  | [Reverse-Pairs](https://leetcode-cn.com/problems/reverse-pairs/) |               |                                                              | Hard       |       |
+| 503  | [Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii/submissions/) |               | [Java](./LeetCode/stack/NextGreaterElement.java)             | Medium     | ?     |
 | 515  | [Find-Largest-Value-In-Each-Tree-Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |               | [Java](./LeetCode/dfsbfs/LargestValue.java)                  | Medium     | !     |
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
