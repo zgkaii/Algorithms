@@ -49,7 +49,7 @@ Algorithms
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |               | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)      | Medium     | !     |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |               | [Java](./LeetCode/array/ValidSudoku.java)                    | Medium     | ?     |
 | 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |               | [Java](./LeetCode/recursive/ValidSudokuTwo.java)             | Hard       | ?     |
-| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | Stack、DP     | [Java](./LeetCode/stack/TrappingRainWater.java)              | Hard       | !     |
+| 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | Stack、DP     | [Java](./LeetCode/stack/TrappingRainWater.java)              | Hard       | !?    |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |               | [Java](./LeetCode/greedy/JumpGameTwo.java)                   | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |               | [Java](./LeetCode/recursive/Permutations.java)               | Medium     | ?     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) |               | [Java](./LeetCode/recursive/PermutationsTwo.java)            | Medium     | ?     |
@@ -73,7 +73,7 @@ Algorithms
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) |               | [Java](./LeetCode/recursive/Combinations.java)               | Medium     | ?     |
 | 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         |               | [Java](./LeetCode/partition/Subsets.java)                    | Medium     | ?     |
 | 83   | [Remove-Duplicates-From-Sorted-List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/) |               | [Java](./LeetCode/list/RemoveDuplicates.java)                | Easy       | !     |
-| 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |               | [Java](./LeetCode/stack/LargestRectangle.java)               | Hard       | !     |
+| 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Stack         | [Java](./LeetCode/stack/LargestRectangle.java)               | Hard       | !?    |
 | 85   | [Maximal-Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) |               |                                                              | Hard       |       |
 | 91   | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | DP            | [Java](./LeetCode/dp/DecodeWays.java)                        | Medium     | ?     |
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |               | [Java](./LeetCode/array/MergeSortedArray.java)               | Easy       | !!    |
