@@ -80,8 +80,9 @@ Algorithms
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |               | [Java](./LeetCode/tree/InOrderTraversal.java)                | Medium     | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) |               | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java)   | Medium     | !     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/LevelOrderTraversal2.java)            | Medium     | !     |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |               | [Java](./LeetCode/recursive/MaximumDepth.java)               | Easy       | !!    |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |               | [Java](./LeetCode/recursive/MaximumDepth.java)               | Easy       | !!!   |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |               | [Java](./LeetCode/recursive/ConstructBinaryTree.java)        | Medium     | !     |
+| 110  | [Balanced-Binary-Tree](https://leetcode-cn.com/problems/balanced-binary-tree/description/) | Tree          |                                                              | Easy       | !     |
 | 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) |               | [Java](./LeetCode/recursive/MinimumDepth.java)               | Easy       | !     |
 | 115  | [Distinct-subsequences](https://leetcode-cn.com/problems/distinct-subsequences/) |               |                                                              | Hard       |       |
 | 120  | [Triangle](https://leetcode-cn.com/problems/triangle/description/) |               | [Java](./LeetCode/dp/Triangle.java)                          | Medium     | !     |
