@@ -26,7 +26,7 @@ public class HouseRobberThree {
     }
 
     private int[] dfs(TreeNode1 root) {
-        if (root == null) return new int[2]{0, 0};
+        if (root == null) return new int[]{0, 0};
 
         int[] left = dfs(root.left);
         int[] right = dfs(root.right);
