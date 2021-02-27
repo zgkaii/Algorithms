@@ -79,11 +79,12 @@ Algorithms
 | 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |               | [Java](./LeetCode/array/MergeSortedArray.java)               | Easy       | !!    |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |               | [Java](./LeetCode/tree/InOrderTraversal.java)                | Medium     | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) |               | [Java](./LeetCode/recursive/ValidateBinarySearchTree.java)   | Medium     | !     |
+| 101  | [symmetric-tree](https://leetcode-cn.com/problems/symmetric-tree/description/) | Tree          |                                                              | Easy       | !     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/LevelOrderTraversal2.java)            | Medium     | !     |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |               | [Java](./LeetCode/recursive/MaximumDepth.java)               | Easy       | !!!   |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |               | [Java](./LeetCode/recursive/ConstructBinaryTree.java)        | Medium     | !     |
 | 110  | [Balanced-Binary-Tree](https://leetcode-cn.com/problems/balanced-binary-tree/description/) | Tree          |                                                              | Easy       | !     |
-| 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) |               | [Java](./LeetCode/recursive/MinimumDepth.java)               | Easy       | !     |
+| 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Tree          | [Java](./LeetCode/recursive/MinimumDepth.java)               | Easy       | !?    |
 | 112  | [Path-Sum/](https://leetcode-cn.com/problems/path-sum)       | Tree          |                                                              | Easy       | ?     |
 | 115  | [Distinct-subsequences](https://leetcode-cn.com/problems/distinct-subsequences/) |               |                                                              | Hard       |       |
 | 120  | [Triangle](https://leetcode-cn.com/problems/triangle/description/) |               | [Java](./LeetCode/dp/Triangle.java)                          | Medium     | !     |
@@ -141,6 +142,7 @@ Algorithms
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) |               | [Java](./LeetCode/binarysearch/ValidPerfectSquare.java)      | Easy       | !     |
 | 378  | [Kth-Smallest-Element-In-A-Sorted-Matrix/](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) |               | [Java](./LeetCode/matrix/KthSmallest.java)                   | Medium     | ?     |
 | 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     | DP            | [Java](./LeetCode/dp/FrogJump.java)                          | Hard       | ?     |
+| 404  | [Sum-Of-Left-Leaves](https://leetcode-cn.com/problems/sum-of-left-leaves/description/) | Tree          |                                                              | Easy       | !     |
 | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |               |                                                              | Hard       |       |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |               | [Java](./LeetCode/tree/NLevelOrderTraversal.java)            | Medium     | !     |
 | 433  | [MinimumGeneticMutation](https://leetcode-cn.com/problems/minimum-genetic-mutation) |               | [Java](./LeetCode/dfsbfs/MinimumGeneticMutation.java)        | Medium     | !     |
@@ -153,16 +155,18 @@ Algorithms
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
 | 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       | [Java](./LeetCode/hashmap/DecodeTinyurl.java)                | Medium     | ?     |
-| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) | Tree          |                                                              | Easy       |       |
+| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) | Tree          |                                                              | Easy       | ？    |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |               |                                                              | Hard       |       |
 | 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) |               | [Java](./LeetCode/matrix/ReshapeTheMatrix.java)              | Easy       | ?     |
+| 572  | [Subtree-Of-Another-Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/description/) | Tree          |                                                              | Easy       |       |
 | 589  | [N-Ary-Tree-Preorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 590  | [N-Ary-Tree-Postorder-Traversal](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |               | [Java](./LeetCode/tree/NPreorderTraversal.java)              | Easy       | !     |
 | 594  | [Longest-Harmonious-Subsequence](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/) | HashMap       | [Java](./LeetCode/hashmap/LongestHarmoniousSubsequence.java) | Easy       | !     |
 | 617  | [Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees/description/) | Tree          |                                                              | Easy       | ?     |
 | 621  | [Task-Scheduler](https://leetcode-cn.com/problems/task-scheduler/) |               |                                                              | Medium     |       |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) |               | [Java](./LeetCode/queue/MyCircularDeque.java)                | Medium     | !     |
-| 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) |               |                                                              | Medium     |       |
+| 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Tree          | [Java](./LeetCode/tree/LongestUnivaluePath.java)             | Medium     |       |
+| 687  | [Longest Univalue Path](https://leetcode-cn.com/problems/longest-univalue-path/) |               |                                                              |            |       |
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |               |                                                              | Easy       |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |               |                                                              | Medium     |       |
 | 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) |               | [Java](./LeetCode/list/SplitListToParts.java)                | Medium     | ?     |
