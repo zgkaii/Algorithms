@@ -166,7 +166,8 @@ Algorithms
 | 621  | [Task-Scheduler](https://leetcode-cn.com/problems/task-scheduler/) |               |                                                              | Medium     |       |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) |               | [Java](./LeetCode/queue/MyCircularDeque.java)                | Medium     | !     |
 | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Tree          | [Java](./LeetCode/tree/LongestUnivaluePath.java)             | Medium     |       |
-| 687  | [Longest Univalue Path](https://leetcode-cn.com/problems/longest-univalue-path/) |               |                                                              |            |       |
+| 671  | [Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | Tree          |                                                              | Easy       | ?     |
+| 687  | [Longest Univalue Path](https://leetcode-cn.com/problems/longest-univalue-path/) |               |                                                              | Medium     |       |
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |               |                                                              | Easy       |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |               |                                                              | Medium     |       |
 | 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) |               | [Java](./LeetCode/list/SplitListToParts.java)                | Medium     | ?     |

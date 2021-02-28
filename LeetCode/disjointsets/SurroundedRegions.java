@@ -72,6 +72,7 @@ class DisjointSets {
     public int find(int m) {
         if (m == parent[m]) return m;
         return parent[m] = find(parent[m]);
+//        return parent[m] = (m == parent[m] ? m : find(parent[m]));
     }
 
     /**
