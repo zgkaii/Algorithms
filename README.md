@@ -132,7 +132,7 @@ Algorithms
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |               |                                                              | Medium     |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) |               | [Java](./LeetCode/array/MoveZeroes.java)                     | Easy       | !     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |               | [Java](./LeetCode/recursive/Codec.java)                      | Hard       | ?     |
-| 300  | [Longest-Increasing-Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | BS            | [Java](./LeetCode/dfsbfs/LongestIncreasingSubsequence.java)  | Medium     | ?     |
+| 300  | [Longest-Increasing-Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Binary Search | [Java](./LeetCode/dfsbfs/LongestIncreasingSubsequence.java)  | Medium     | ?     |
 | 309  | [Best-Time-To-Buy-And-Sell-Stock-With-Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |               |                                                              | Medium     |       |
 | 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) |               |                                                              | Hard       |       |
 | 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/)&hearts; | DP            | [Java](./LeetCode/dp/CoinChange.java)                        | Medium     | !     |
@@ -152,6 +152,7 @@ Algorithms
 | 485  | [Max-Consecutive-Ones](https://leetcode-cn.com/problems/max-consecutive-ones/description/) |               | [Java](./LeetCode/array/MaxOnes.java)                        | Easy       | ?     |
 | 493  | [Reverse-Pairs](https://leetcode-cn.com/problems/reverse-pairs/) |               |                                                              | Hard       |       |
 | 503  | [Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii/submissions/) |               | [Java](./LeetCode/stack/NextGreaterElement.java)             | Medium     | ?     |
+| 513  | [Find Bottom Left Tree Value](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/) | BFS           | [Java](./LeetCode/tree/FindBottom.java)                      | Medium     | ?     |
 | 515  | [Find-Largest-Value-In-Each-Tree-Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) |               | [Java](./LeetCode/dfsbfs/LargestValue.java)                  | Medium     | !     |
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
@@ -165,6 +166,7 @@ Algorithms
 | 594  | [Longest-Harmonious-Subsequence](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/) | HashMap       | [Java](./LeetCode/hashmap/LongestHarmoniousSubsequence.java) | Easy       | !     |
 | 617  | [Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees/description/) | Tree          |                                                              | Easy       | ?     |
 | 621  | [Task-Scheduler](https://leetcode-cn.com/problems/task-scheduler/) |               |                                                              | Medium     |       |
+| 637  | [Average-Of-Levels-In-Binary-Tree/](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | DFS           |                                                              | Easy       | ?     |
 | 641  | [Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque/) |               | [Java](./LeetCode/queue/MyCircularDeque.java)                | Medium     | !     |
 | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Tree          | [Java](./LeetCode/tree/LongestUnivaluePath.java)             | Medium     |       |
 | 671  | [Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | Tree          |                                                              | Easy       | ?     |
@@ -185,6 +187,8 @@ Algorithms
 | 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) |               | [Java](./LeetCode/dp/CommonSubsequence.java)                 | Medium     | !     |
 | 1277 | [Count-Square-Submatrices-With-All-Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) | DP            | [Java](./LeetCode/dp/SquareSubmatrices.java)                 | Medium     | ?     |
 
-> DP --- Dynamic Programming；BO——Bitwise Operation ; BS——Binary Search
+> DP --- Dynamic Programming；BO --- Bitwise Operation; BS --- Binary Search
+>
+> BFS --- Breadth-First Search; DFS --- Depth-First-Search
 >
 > ! --- success ; ? --- failure
