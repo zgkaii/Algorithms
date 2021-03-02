@@ -35,8 +35,8 @@ Algorithms
 | NO.  | Title                                                        | Category      | Solution                                                     | Difficulty | Times |
 | ---- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ---------- | ----- |
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | HashMap       | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
-| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !！   |
-| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !？   |
+| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !!    |
+| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !?    |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
 | 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |               | [Java](./LeetCode/list/RemoveNthNode.java)                   | Medium     | ?     |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?!   |
@@ -156,7 +156,7 @@ Algorithms
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | DP            | [Java](./LeetCode/dp/CoinChangeTwo.java)                     | Medium     | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) |               | [Java](./LeetCode/dfsbfs/Minesweeper.java)                   | Medium     | !     |
 | 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | HashMap       | [Java](./LeetCode/hashmap/DecodeTinyurl.java)                | Medium     | ?     |
-| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) | Tree          |                                                              | Easy       | ？    |
+| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) | Tree          |                                                              | Easy       | ?     |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |               |                                                              | Hard       |       |
 | 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) |               | [Java](./LeetCode/matrix/ReshapeTheMatrix.java)              | Easy       | ?     |
 | 572  | [Subtree-Of-Another-Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/description/) | Tree          |                                                              | Easy       |       |
