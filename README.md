@@ -37,7 +37,7 @@ Algorithms
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | HashMap       | [Java](./LeetCode/hashmap/TwoSum.java)                       | Easy       | !!?   |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) |               | [Java](./LeetCode/array/MostWater.java)                      | Medium     | !!    |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               |               | [Java](./LeetCode/array/ThreeSum.java)                       | Medium     | !?    |
-| 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |               | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
+| 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | Recursion     | [Java](./LeetCode/partition/LetterCombinations.java)         | Medium     | ?     |
 | 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) |               | [Java](./LeetCode/list/RemoveNthNode.java)                   | Medium     | ?     |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | Stack         | [Java](./LeetCode/stack/ValidParentheses.java)               | Easy       | !?!   |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |               | [Java](./LeetCode/list/MergeTwoSortedLists.java)             | Easy       | !!    |
@@ -66,7 +66,7 @@ Algorithms
 | 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) |               | [Java](./LeetCode/dp/MinimumPathSum.java)                    | Medium     | !     |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       |               | [Java](./LeetCode/array/PlusOne.java)                        | Easy       | !?    |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             |               | [Java](./LeetCode/binarysearch/SqrtX.java)                   | Easy       | !     |
-| 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |               | [Java](./LeetCode/dp/ClimbingStairs.java)                    | Easy       | !!    |
+| 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |               | [Java](./LeetCode/dp/ClimbingStairs.java)                    | Easy       | !!!   |
 | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)&hearts; |               |                                                              | Hard       |       |
 | 74   | [Search-A-2d-Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/) |               | [Java](./LeetCode/binarysearch/Matrix.java)                  | Medium     | !     |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |               |                                                              | Hard       |       |
