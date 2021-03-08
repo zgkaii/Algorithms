@@ -49,6 +49,7 @@ Algorithms
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |                  | [Java](./LeetCode/binarysearch/RotatedSortedArray.java)      | Medium     | !     |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) |                  | [Java](./LeetCode/array/ValidSudoku.java)                    | Medium     | ?     |
 | 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) |                  | [Java](./LeetCode/recursive/ValidSudokuTwo.java)             | Hard       | ?     |
+| 39   | [Combination-Sum](https://leetcode-cn.com/problems/combination-sum/) |                  |                                                              | Medium     |       |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | Stack、DP        | [Java](./LeetCode/stack/TrappingRainWater.java)              | Hard       | !?    |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) |                  | [Java](./LeetCode/greedy/JumpGameTwo.java)                   | Hard       | !     |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) |                  | [Java](./LeetCode/recursive/Permutations.java)               | Medium     | ?     |
@@ -194,3 +195,8 @@ Algorithms
 > BFS --- Breadth-First Search; DFS --- Depth-First-Search
 >
 > ! --- success ; ? --- failure
+
+| 剑指 Offer | Title                                                        | Category         | Solution   | Difficulty | Times |
+| ---------- | ------------------------------------------------------------ | ---------------- | ---------- | ---------- | ----- |
+| 51         | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | Divide & Conquer | [Java](./) | Hard       | ?     |
+
