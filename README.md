@@ -56,7 +56,7 @@ Algorithms
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) |                  | [Java](./LeetCode/recursive/PermutationsTwo.java)            | Medium     | ?     |
 | 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | HashMap          | [Java](./LeetCode/hashmap/GroupAnagrams.java)                | Medium     | !?    |
 | 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           |                  | [Java](./LeetCode/partition/Powxn.java)                      | Medium     | !     |
-| 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       |                  | [Java](./LeetCode/recursive/NQueens.java)                    | Hard       |       |
+| 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | Backtracking     | [Java](./LeetCode/recursive/NQueens.java)                    | Hard       | ?     |
 | 52   | [N-Queens-ii](https://leetcode-cn.com/problems/n-queens-ii/description/) |                  |                                                              | Hard       |       |
 | 53   | [Maximum-Subarray](https://leetcode-cn.com/problems/maximum-subarray/) |                  | [Java](./LeetCode/dp/MaximumSubarray.java)                   | Easy       | !?    |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     |                  | [Java](./LeetCode/greedy/JumpGame.java)                      | Medium     | !     |

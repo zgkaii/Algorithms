@@ -19,59 +19,44 @@ import java.util.List;
  * 输出：[[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
  */
 public class NQueens {
-    List<List<String>> res = new ArrayList<>();
-
     public List<List<String>> solveNQueens(int n) {
-        //用二维char数组初始化棋盘
-        char[][] board = new char[n][n];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(board[i], '.');
-        }
-        backtrack(0, board);
+        char[][] board = new char[n][n];               // 用二维char数组初始化棋盘
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                board[i][j] = '.';
+        List<List<String>> res = new ArrayList<>();
+        backtrack(res, board, 0);
         return res;
     }
 
-    public void backtrack(int row, char[][] board) {
+    private void backtrack(List<List<String>> res, char[][] board, int row) {
         if (board.length == row) {
-            res.add(charArraysToList(board));
+            res.add(charArrayToList(board));            // 将char二维数组放入List中
             return;
         }
         int n = board[row].length - 1;
         for (int col = 0; col <= n; col++) {
-            //排除不合法的选项
-            if (!isValid(board, row, col))
-                continue;
-            //做选择
-            board[row][col] = 'Q';
-            //进入下一行决策
-            backtrack(row + 1, board);
-            //撤销选择
-            board[row][col] = '.';
+            if (!isValid(board, row, col)) continue;    // 调用isValid(),排除不合法选项
+            board[row][col] = 'Q';                      // 放置皇后
+            backtrack(res, board, row + 1);        // 递归查询并放置下一个皇后
+            board[row][col] = '.';                      // 撤销选择
         }
-
     }
 
     public static boolean isValid(char[][] board, int row, int col) {
-        int n = board.length;
-        //注意由于我们是从上往下的来一个一个排列 所以不用检查下方的棋盘
-        //检查正上方有没有冲突(列冲突)
-        for (int r = 0; r < n; r++) {
-            if (board[r][col] == 'Q')
-                return false;
-        }
-        //检查左上方
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+        // 检查正上方冲突(列冲突)(由于是从上往下的来一个一个排列 所以不用检查下方的棋盘)
+        for (int r = 0; r < board.length; r++)
+            if (board[r][col] == 'Q') return false;
+        // 检查左上方
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--)
             if (board[i][j] == 'Q') return false;
-        }
-        //检查右上方
-        for (int i = row - 1, j = col + 1; i >= 0 && j < board[i].length; i--, j++) {
+        // 检查右上方
+        for (int i = row - 1, j = col + 1; i >= 0 && j < board[i].length; i--, j++)
             if (board[i][j] == 'Q') return false;
-        }
         return true;
     }
 
-    public static List<String> charArraysToList(char[][] board) {
-        //将char数组变成list<String>
+    public static List<String> charArrayToList(char[][] board) {
         List<String> list = new ArrayList<>();
         for (char[] c : board) {
             String str = new String(c);
